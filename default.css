@@ -1,0 +1,35 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  padding: 1em;
+  background: #fff;
+  color: #000;
+}
+
+a {
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  background: #fff;
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0f0f0f;
+    color: #dfdfdf;
+  }
+
+  ::-webkit-scrollbar {
+    background: #0f0f0f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+}
